@@ -109,9 +109,8 @@ const SideBar = () => {
 
       <div className="secondLine"></div>
 
-      <h3 className="contact">Contact</h3>
-
       <div className="info">
+        <h3 className="contact">Contact</h3>
         <div className="phone">
           <svg
             width="20"

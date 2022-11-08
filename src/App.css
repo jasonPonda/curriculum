@@ -1,0 +1,248 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+/*************************************** firstSection ************************************/
+.firstSection {
+  position: absolute;
+  width: 1069px;
+  height: 378px;
+  left: 371px;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  background: #a4ced4;
+}
+
+.education h3 {
+  /* EDUCATION */
+
+  position: absolute;
+  width: 147px;
+  height: 30px;
+  left: 38px;
+  top: 20px;
+
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #94140c;
+}
+
+.study {
+  /* Bachelor Stop 10/2020-01/2022 | HE2B ESI (Brussels) Informatique réseaux et systèmes de télécommunications Bachelor Stop 09/2018-09/2020 | Paul Lambin (Woluwe-St-Lambert) Informatique de gestion SECONDARY - CESS 09/2016 - 06/2018 | Saint-Vincent-Saint-François (Ixelles) */
+
+  position: absolute;
+  width: 472px;
+  height: 252px;
+  left: 38px;
+  top: 94px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #012169;
+}
+
+.languages h3 {
+  /* LANGUAGES */
+
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  left: 800px;
+  top: 20px;
+
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #94140c;
+}
+
+.level {
+  /* French C2 English A2 Dutch A2 */
+
+  position: absolute;
+  width: 399px;
+  height: 166px;
+  left: 800px;
+  top: 142px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #012169;
+}
+
+.level span {
+  margin-left: 1rem;
+}
+
+/********************************************** experiencesSection ********************************/
+.experiencesSection {
+  position: absolute;
+  width: 1069px;
+  height: 407px;
+  left: 371px;
+  top: 378px;
+  display: flex;
+  flex-direction: column;
+  background: #d9f4f4;
+}
+
+.experiencesSection h3 {
+  position: absolute;
+  width: 170px;
+  height: 30px;
+  left: 38px;
+  top: 30px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #94140c;
+}
+
+.trainee {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0 1px 40px;
+  color: #012169;
+}
+
+.trainee p:nth-child(1) {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.becode {
+  margin-top: 2rem;
+}
+
+.rigthPart {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0 1px 600px;
+
+  color: #012169;
+}
+
+.rigthPart p:nth-child(1) {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.hub {
+  margin-top: 2rem;
+}
+
+/********************************** third Section ******************************************/
+.third {
+  position: absolute;
+  width: 1070px;
+  height: 300px;
+  left: 371px;
+  top: 785px;
+  display: flex;
+  flex-direction: columns;
+  background: #a4ced4;
+}
+
+.skills h3 {
+  /* SKILLS */
+
+  position: absolute;
+  width: 85px;
+  height: 30px;
+  left: 38px;
+  top: 30px;
+
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #94140c;
+}
+
+.skills ul {
+  /* • team spirit • professionalism • autonomy • dynamism */
+
+  position: absolute;
+  width: 186px;
+  height: 108px;
+  left: 38px;
+  top: 85px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #012169;
+}
+
+.interest h3 {
+  /* CENTER OF INTEREST */
+
+  position: absolute;
+  width: 297px;
+  height: 46px;
+  left: 600px;
+  top: 30px;
+
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #94140c;
+}
+
+.interest ul {
+  /* guitar football manga video games */
+
+  position: absolute;
+  width: 137px;
+  height: 78px;
+  left: 600px;
+  top: 85px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #012169;
+}
