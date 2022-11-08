@@ -1,0 +1,148 @@
+.main {
+  display: flex;
+  width: 371px;
+  min-height: 100vh;
+  left: 0px;
+  top: 0px;
+  background: #8bb0b5;
+}
+
+img {
+  position: absolute;
+  width: 229px;
+  height: 236px;
+  left: 71px;
+  top: 20px;
+  border: 1px solid #000000;
+  border-radius: 180px;
+}
+
+/* Jason Ponda Vinda */
+h3 {
+  position: absolute;
+  width: 210px;
+  height: 30px;
+  left: 80px;
+  top: 284px;
+
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #94140c;
+}
+
+h4 {
+  /* Frontend junior web developer */
+
+  position: absolute;
+  width: 343px;
+  height: 30px;
+  left: 30px;
+  top: 342px;
+
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #1d3e5b;
+}
+
+.firstLine {
+  /* Line 1 */
+
+  position: absolute;
+  width: 371px;
+  height: 0px;
+  left: 0px;
+  top: 455px;
+
+  border: 1px solid #000000;
+}
+
+.technical {
+  /* Technical skills */
+
+  position: absolute;
+  width: 172px;
+  height: 30px;
+  left: 95px;
+  top: 487px;
+
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #94140c;
+}
+
+.logoSkills {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  left: 60px;
+  top: 556px;
+}
+
+.secondLine {
+  /* Line 2 */
+
+  position: absolute;
+  width: 371px;
+  height: 0px;
+  left: 0px;
+  top: 785px;
+
+  border: 1px solid #000000;
+  transform: rotate(0.15deg);
+}
+
+.contact {
+  /* Contact */
+
+  position: absolute;
+  width: 88px;
+  height: 30px;
+  left: 127px;
+  top: 801px;
+
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #94140c;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #012169;
+  margin-left: 30px;
+  line-height: 30px;
+}
+
+.phone {
+  margin-top: 870px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.info span {
+  padding-left: 1rem;
+}
